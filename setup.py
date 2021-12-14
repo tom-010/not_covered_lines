@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 setup(
     name='not_covered_lines',
     url='https://github.com/tom-010/not_covered_lines',
-    version='0.0.1',
+    version='0.0.2',
     author='Thomas Deniffel',
     author_email='tdeniffel@gmail.com',
     packages=['not_covered_lines'],

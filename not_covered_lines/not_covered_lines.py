@@ -17,7 +17,6 @@ def not_covered_lines(path_to_coverage_file):
     current_dir = '/'.join(path_to_coverage_file.split('/')[:-1])
     coverage_base_path = str(pathlib.Path(current_dir).absolute()) + '/'
     
-    print(path_to_coverage_file)
     coverage = Coverage(data_file=path_to_coverage_file, check_preimported=True, messages=True)
     coverage.load()
 
